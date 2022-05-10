@@ -12,13 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Image
-          src='/img.png'
-          width={1920}
-          height={1280}
-          sizes='(min-width: 768px) 100px, 85vw'
-          alt=''
-        />
+        <Image src='/img.png' width={1920} height={1280} sizes='50vw' alt='' />
         <Image src='/img.png' width={1920} height={1280} sizes='100vw' alt='' />
       </main>
     </div>
