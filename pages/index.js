@@ -16,10 +16,10 @@ export default function Home() {
           src='/img.png'
           width={1920}
           height={1280}
-          size='(min-width: 768px) 100px, 85vw'
+          sizes='(min-width: 768px) 100px, 85vw'
           alt=''
         />
-        <Image src='/img.png' width={1920} height={1280} size='100vw' alt='' />
+        <Image src='/img.png' width={1920} height={1280} sizes='100vw' alt='' />
       </main>
     </div>
   );
